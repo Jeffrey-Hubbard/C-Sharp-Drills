@@ -41,14 +41,12 @@ namespace Drills
             Console.ReadLine();
 
             Console.WriteLine("Part Two: Here, we will evaluate and answer three True or False questions.");
-            System.Threading.Thread.Sleep(300);
             Console.WriteLine("1. Is it True or False that 3 is greater than 2 AND 5 is greater than 4?");
             Console.WriteLine("Press any button to see the answer...");
             Console.ReadLine();
 
             bool firstBool = 3 > 2 && 5 > 4;
             Console.WriteLine(firstBool);
-            System.Threading.Thread.Sleep(300);
 
             Console.WriteLine("2. Is it True or False that 3 is greater than 2 OR 5 is greater than 4?");
             Console.WriteLine("Press any button to see the answer...");
@@ -56,7 +54,6 @@ namespace Drills
 
             bool secondBool = 3 > 2 || 5 > 4;
             Console.WriteLine(secondBool);
-            System.Threading.Thread.Sleep(300);
 
             Console.WriteLine("3. Is it True or False that 2 plus 2 DOES NOT EQUAL 4?");
             Console.WriteLine("Press any button to see the answer...");
@@ -64,7 +61,6 @@ namespace Drills
 
             bool thirdBool = (2 + 2) != 4;
             Console.WriteLine(thirdBool);
-            System.Threading.Thread.Sleep(300);
 
             Console.WriteLine("Thank you for your time! Press any key to close this program.");
             Console.ReadLine();
