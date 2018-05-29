@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iteration", "Iteration\Iter
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionHandling", "ExceptionHandling\ExceptionHandling.csproj", "{B1D13832-1A69-4DAB-B2F7-EE0A91E59E36}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ByFives", "ByFives\ByFives.csproj", "{32FA798A-CF97-48A4-929C-30488E5AD9D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{B1D13832-1A69-4DAB-B2F7-EE0A91E59E36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1D13832-1A69-4DAB-B2F7-EE0A91E59E36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1D13832-1A69-4DAB-B2F7-EE0A91E59E36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32FA798A-CF97-48A4-929C-30488E5AD9D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32FA798A-CF97-48A4-929C-30488E5AD9D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32FA798A-CF97-48A4-929C-30488E5AD9D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32FA798A-CF97-48A4-929C-30488E5AD9D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
