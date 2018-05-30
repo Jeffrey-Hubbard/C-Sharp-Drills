@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NamedParameters", "NamedPar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutputsAndOverloads", "OutputsAndOverloads\OutputsAndOverloads.csproj", "{05319A64-260A-414C-9AB9-8B637AA2695B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\Inheritance.csproj", "{5DB0137C-ED70-41C7-AD3E-BCF6C4A084FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{05319A64-260A-414C-9AB9-8B637AA2695B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05319A64-260A-414C-9AB9-8B637AA2695B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05319A64-260A-414C-9AB9-8B637AA2695B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DB0137C-ED70-41C7-AD3E-BCF6C4A084FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DB0137C-ED70-41C7-AD3E-BCF6C4A084FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DB0137C-ED70-41C7-AD3E-BCF6C4A084FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DB0137C-ED70-41C7-AD3E-BCF6C4A084FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
