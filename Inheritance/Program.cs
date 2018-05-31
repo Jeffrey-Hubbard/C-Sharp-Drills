@@ -25,6 +25,15 @@ namespace Inheritance
             Console.WriteLine("What if they quit again?:");
             newEmployee.Quit();
             Console.ReadLine();
+
+            Console.WriteLine("Wait, are they the same person?:");
+            Console.WriteLine(employee == newEmployee);
+            Console.ReadLine();
+
+            Console.WriteLine("Just to confirm that each person matches themselves, does the second employee equal themselves?:");
+            Console.WriteLine(newEmployee == newEmployee);
+            Console.ReadLine();
+
         }
     }
 }

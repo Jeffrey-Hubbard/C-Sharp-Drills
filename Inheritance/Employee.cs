@@ -21,6 +21,31 @@ namespace Inheritance
             {
                 Console.WriteLine("ERROR: EMPLOYEE " + Id + " HAS ATTEMPTED TO QUIT, BUT IS ALREADY NOT ACTIVELY EMPLOYED!");
             }
+
+
+        }
+        public static bool operator== (Employee firstEmployee, Employee secondEmployee)
+        {
+            if (firstEmployee.Id == secondEmployee.Id)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        public static bool operator !=(Employee firstEmployee, Employee secondEmployee)
+        {
+            if (firstEmployee.Id == secondEmployee.Id)
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
         }
 
     }
