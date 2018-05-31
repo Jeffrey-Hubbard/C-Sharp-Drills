@@ -10,8 +10,16 @@ namespace Inheritance
     {
         static void Main(string[] args)
         {
-            Employee employee = new Employee() { FirstName = "Sample", LastName = "Student" };
+            Employee employee = new Employee() { FirstName = "Sample", LastName = "Student", Id = 90210 };
             employee.SayName();
+            Console.ReadLine();
+
+            Console.WriteLine("I have a feeling " + employee.FirstName + " is going to quit! Let's watch what happens:");
+            employee.Quit();
+            Console.ReadLine();
+
+            Console.WriteLine("What if they quit again?:");
+            employee.Quit();
             Console.ReadLine();
         }
     }
