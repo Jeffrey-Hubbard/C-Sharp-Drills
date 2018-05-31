@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Inheritance
 {
-    class Employee<T> : Person, IQuittable where T : IComparable<T>
+    class Employee : Person, IQuittable //where T : IComparable<T> [<T>]
     {
         public int Id { get; set; }
         public bool ActivelyEmployed = true;
-        public List<T> Things { get; set; }
+        //public List<T> Things { get; set; }
 
 
         public void Quit()
@@ -28,35 +28,33 @@ namespace Inheritance
 
         }
 
-        // The below code was used for a previous drill that specified checking the id property to 
-        // compare two employee objects, however, comparisons of objects with generic type
-        // parameters instantiated with different parameters cannot be done, so this code 
-        // no longer works. Instead, the main program just gets the id property from the employee and uses
-        // standard int == comparison.
 
-        //public static bool operator ==(Employee<T> firstEmployee, Employee<T> secondEmployee)
-        //{
-        //    if (firstEmployee.Id == secondEmployee.Id)
-        //    {
-        //        return true;
-        //    }
-        //    else
-        //    {
-        //        return false;
-        //    }
-        //}
 
-        //public static bool operator !=(Employee<T> firstEmployee, Employee<T> secondEmployee)
-        //{
-        //    if (firstEmployee.Id == secondEmployee.Id)
-        //    {
-        //        return false;
-        //    }
-        //    else
-        //    {
-        //        return true;
-        //    }
-        //}
+        public static bool operator ==(Employee firstEmployee, Employee secondEmployee)
+        {
+            Console.WriteLine("Override method called");
+            Console.WriteLine("First: " + firstEmployee.Id + " Second: " + secondEmployee.Id);
+            if (firstEmployee.Id == secondEmployee.Id)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        public static bool operator !=(Employee firstEmployee, Employee secondEmployee)
+        {
+            if (firstEmployee.Id == secondEmployee.Id)
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
 
     }
 }
