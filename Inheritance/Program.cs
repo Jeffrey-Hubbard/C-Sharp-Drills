@@ -14,12 +14,16 @@ namespace Inheritance
             employee.SayName();
             Console.ReadLine();
 
-            Console.WriteLine("I have a feeling " + employee.FirstName + " is going to quit! Let's watch what happens:");
-            employee.Quit();
+            Console.WriteLine("We have hired a new employee!");
+            IQuittable newEmployee = new Employee() { FirstName = "Roger", LastName = "Rabbit", Id = 92929 };
+            Console.WriteLine("Please welcome {0} {1}, employee number {2}!", ((Employee)newEmployee).FirstName, ((Employee)newEmployee).LastName, ((Employee)newEmployee).Id);
+
+            Console.WriteLine("I have a feeling " + ((Employee)newEmployee).FirstName + " is going to quit! Let's watch what happens:");
+            newEmployee.Quit();
             Console.ReadLine();
 
             Console.WriteLine("What if they quit again?:");
-            employee.Quit();
+            newEmployee.Quit();
             Console.ReadLine();
         }
     }
