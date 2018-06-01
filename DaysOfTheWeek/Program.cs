@@ -39,7 +39,7 @@ namespace DaysOfTheWeek
             }
             catch (System.ArgumentException ex)
             {
-                Console.WriteLine("You can't fool me, that is not a day of the week! Error: " + ex.Message);
+                Console.WriteLine("Please enter an actual day of the week. Error: " + ex.Message);
             }
             Console.ReadLine();
         }
