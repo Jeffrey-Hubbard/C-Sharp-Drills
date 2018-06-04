@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaysOfTheWeek", "DaysOfTheWeek\DaysOfTheWeek.csproj", "{251C39EF-A389-4984-86F9-6FAAAEEA124B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhiteBoard_060118", "WhiteBoard_060118\WhiteBoard_060118.csproj", "{B0B24FD1-2A33-40E4-A127-265FB0C1DDE8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{251C39EF-A389-4984-86F9-6FAAAEEA124B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{251C39EF-A389-4984-86F9-6FAAAEEA124B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{251C39EF-A389-4984-86F9-6FAAAEEA124B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0B24FD1-2A33-40E4-A127-265FB0C1DDE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0B24FD1-2A33-40E4-A127-265FB0C1DDE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0B24FD1-2A33-40E4-A127-265FB0C1DDE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0B24FD1-2A33-40E4-A127-265FB0C1DDE8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
