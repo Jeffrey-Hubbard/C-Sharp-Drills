@@ -34,13 +34,13 @@ namespace DaysOfTheWeek
                 dayString = textInfo.ToTitleCase(dayString);
 
                 Day dayName = (Day)Enum.Parse(typeof(Day), dayString); 
-                if (Enum.IsDefined(typeof(Day), dayName))
+                if (Int32.TryParse(dayString, out int result))
                 {
-                    Console.WriteLine("Very good! Yes, that is a day of the week.");
+                    throw new System.ArgumentException("Invalid input type (int).");
                 }
                 else
                 {
-                    Console.WriteLine("{0} is not an underlying value of the Days enumeration.", dayString);
+                    Console.WriteLine("Very good! Yes, that is a day of the week.");
                 }
 
             }
